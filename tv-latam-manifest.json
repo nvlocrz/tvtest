@@ -1,0 +1,57 @@
+{
+  "id": "com.tvlatam.live",
+  "version": "1.1.0",
+  "name": "TV Latam",
+  "description": "Canales en vivo de Latinoamérica, España e internacionales. Se actualiza automáticamente.",
+  "logo": "https://via.placeholder.com/256x256.png?text=TV+Latam",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "tv"
+  ],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "tvlatam_all",
+      "name": "TV Latam",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Todos",
+            "Deportes",
+            "Canales abiertos",
+            "Noticias",
+            "Cine y series",
+            "Novelas",
+            "Documentales",
+            "Estilo de vida",
+            "Infantil",
+            "Música",
+            "Religiosos",
+            "Otros"
+          ],
+          "isRequired": false
+        },
+        {
+          "name": "search",
+          "isRequired": false
+        },
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "idPrefixes": [
+    "tvlatam:"
+  ],
+  "behaviorHints": {
+    "adult": false,
+    "configurable": false
+  }
+}
